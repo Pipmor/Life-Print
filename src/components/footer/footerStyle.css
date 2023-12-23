@@ -1,0 +1,49 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap');
+
+footer{
+ font-family: 'Roboto', sans-serif;
+ 
+}
+.footer{
+  background-color:#262626 ;
+  color:#FFFFFF;
+  display: flex;
+  justify-content:center;
+  padding:50px;
+}
+
+.contactContainer{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-column-gap: 60px ;
+  padding-bottom:10px;
+}
+
+.icon-container img{
+  width:25px;
+}
+
+.icon-container{
+  display: flex;
+  align-items:center; 
+  gap:5px;
+}
+
+.ul>li{
+  list-style: none;
+}
+
+.ul{
+  display: flex;
+  gap:5px;
+}
+
+.socialMedia-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top:5px;
+}
+
+
