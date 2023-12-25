@@ -1,17 +1,16 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route , Routes } from "react-router-dom";
+
 
 
 const App = () => {
-  return (
-      <BrowserRouter>
-        <div>
-          <Route path="/" component={} />
-        </div>
-      </BrowserRouter>
-  );
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="/"  element={<h1>Life Print</h1>} />
+            </Routes>
+        </BrowserRouter>
+    );
 };
 
 export default App;
-
-
